@@ -812,7 +812,7 @@
       "name": "مساكن أكنان 6",
       "city": "الرياض",
       "district": "النرجس",
-      "status": "delivered",
+      "status": "available",
       "description": "يقع مشروع \"مساكن أكنان 6\" في مدينة الرياض، في حي النرجس، بالقرب من تقاطع طريق الملك سلمان مع طريق الأمير فيصل بن بندر بن عبد العزيز. يتميز الموقع بقربه من المعالم الحيوية التي تشمل الجامعات والمدارس والمراكز التجارية، مما يوفر للسكان سهولة الوصول إلى كافة الخدمات الضرورية. يحتوي المشروع على 44 شقة متنوعة ومساحات واسعة، ويوفر خيارًا مميزًا للعائلات الباحثة عن الراحة والرفاهية. من مميزات المشروع: 5 مداخل رئيسية، 4 مصاعد، 4 سلالم درج، تكييف اسبليت، نظام مدني دفاع متكامل، موقف سيارة خاصة، خزان مياه مستقل لكل شقة (علوي وسفلي)، منزل ذكي، تأمين ضد العيوب الخفية. للتواصل: 0115001440",
       "units": [
         {
@@ -826,7 +826,8 @@
           "features": [],
           "price": 1844016,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1DJsMBqsb6nKM-xDj8RM96G--DOq2Mtfj/view"
         },
         {
           "id": "aknan6-A102",
@@ -839,7 +840,8 @@
           "features": [],
           "price": "",
           "status": "reserved",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/10sN8WeleSQAp3je5YZf_NhX8JK3GSxd8/view"
         },
         {
           "id": "aknan6-A103",
@@ -852,7 +854,8 @@
           "features": [],
           "price": 1939325,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1ueiVIoAMCvp9bwz8j570K83Xor0wgFoe/view"
         },
         {
           "id": "aknan6-A104",
@@ -865,7 +868,8 @@
           "features": [],
           "price": 1934438,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1d1ZDWQ5AzWLXlGuq2F79orD727y93RJ9/view"
         },
         {
           "id": "aknan6-A105",
@@ -878,7 +882,8 @@
           "features": [],
           "price": 1972719,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/13ebssMvgDaK7mn6I0XhDd43BvmuXJH6H/view"
         },
         {
           "id": "aknan6-A106",
@@ -891,7 +896,8 @@
           "features": [],
           "price": 1537336,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1Fmgq7mS8esyMOXwzb4oDTvLN4YpbabHZ/view"
         },
         {
           "id": "aknan6-A207",
@@ -904,7 +910,8 @@
           "features": [],
           "price": 982059,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1jnHy1AQDr_MA-d5RdqFgZyULRrlWk-Az/view"
         },
         {
           "id": "aknan6-A308",
@@ -917,7 +924,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1gq5uuMjr0voMvIKm4WtIEZUIazx0Ean2/view"
         },
         {
           "id": "aknan6-A309",
@@ -930,7 +938,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1HaXydrVVT_jEBJU633ARzJ63ihVzgWyv/view"
         },
         {
           "id": "aknan6-A310",
@@ -943,7 +952,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/12HBkWcNE0T-fEnDkqwssHSKy8W8QQz-B/view"
         },
         {
           "id": "aknan6-A411",
@@ -956,7 +966,8 @@
           "features": [],
           "price": 1951542,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1rwey3i4nvIijwpz5CUmdc4fyHIhCOo94/view"
         },
         {
           "id": "aknan6-A412",
@@ -969,7 +980,8 @@
           "features": [],
           "price": 1689273,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1eDWgFzScmfn4UwhorkkIH30h3tHz7U9a/view"
         },
         {
           "id": "aknan6-A413",
@@ -982,7 +994,8 @@
           "features": [],
           "price": 1737329,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1coe7wb3FjvIpaEvpAdwYqn6rnYAxfL4V/view"
         },
         {
           "id": "aknan6-B101",
@@ -995,7 +1008,8 @@
           "features": [],
           "price": 1537336,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1RJjiV25pQYFY1nE8v30q3Q1XvCqz4YEb/view"
         },
         {
           "id": "aknan6-B102",
@@ -1008,7 +1022,8 @@
           "features": [],
           "price": 1974348,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1aWSq6da5ut6OSl06jNZS1rYf_Qe4eoSr/view"
         },
         {
           "id": "aknan6-B103",
@@ -1021,7 +1036,8 @@
           "features": [],
           "price": 1933623,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1SphntRFWTMGcBAbGvgKMRl8-HG32rzYX/view"
         },
         {
           "id": "aknan6-B104",
@@ -1034,7 +1050,8 @@
           "features": [],
           "price": 1939325,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/19NiG9RGOBeq-H_fNfhepZu3TJFG3QuhT/view"
         },
         {
           "id": "aknan6-B105",
@@ -1047,7 +1064,8 @@
           "features": [],
           "price": 1732442,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1rwey3i4nvIijwpz5CUmdc4fyHIhCOo94/view"
         },
         {
           "id": "aknan6-B106",
@@ -1060,7 +1078,8 @@
           "features": [],
           "price": 1659614,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1_q0M3zfXskhwGvsyO5U6L8uNVyK3oyNq/view"
         },
         {
           "id": "aknan6-B207",
@@ -1073,7 +1092,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1sJOnTx1WEjJqo6hizHqCYobkk9qGP_ZD/view"
         },
         {
           "id": "aknan6-B308",
@@ -1086,7 +1106,8 @@
           "features": [],
           "price": "",
           "status": "reserved",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1R3hdRVV27gv-T8j7lz-7DIWd7Jy_Rlzu/view"
         },
         {
           "id": "aknan6-B309",
@@ -1099,7 +1120,8 @@
           "features": [],
           "price": "",
           "status": "reserved",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1CB5zAwUE-O-bJ_fia__ZdfDWNSE652jB/view"
         },
         {
           "id": "aknan6-B310",
@@ -1112,7 +1134,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1pnGhDP8Hpp_97LYB69KgsjOYZM9j_KAZ/view"
         },
         {
           "id": "aknan6-B411",
@@ -1125,7 +1148,8 @@
           "features": [],
           "price": 1689273,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1S4aGAQ-Jlw9uKmbxPiBBhQUNPAFv0T0n/view"
         },
         {
           "id": "aknan6-B412",
@@ -1138,7 +1162,8 @@
           "features": [],
           "price": 1737329,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1kD7wUo_0t-hjdBIUVRWVvK53yREoT-KY/view"
         },
         {
           "id": "aknan6-B413",
@@ -1151,7 +1176,8 @@
           "features": [],
           "price": 1910817,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1eu6IsAswzoQzXqQ40EnF7DApBO6AlvCj/view"
         },
         {
           "id": "aknan6-C101",
@@ -1164,7 +1190,8 @@
           "features": [],
           "price": "",
           "status": "reserved",
-          "notes": "شقة العرض - غير معروضة للبيع"
+          "notes": "شقة العرض - غير معروضة للبيع",
+          "planFile": "https://drive.google.com/file/d/1EVI1UYo1E_ZImKpw2Hc6uoFNDgH0WZBD/view"
         },
         {
           "id": "aknan6-C102",
@@ -1177,7 +1204,8 @@
           "features": [],
           "price": 1750361,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1iT3WyXq_ParnJ1_sBCickRroynUWTEUk/view"
         },
         {
           "id": "aknan6-C103",
@@ -1190,7 +1218,8 @@
           "features": [],
           "price": 2072903,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1_U_TQ63VBdRDxVg0p26grMj-qc1x43RR/view"
         },
         {
           "id": "aknan6-C104",
@@ -1203,7 +1232,8 @@
           "features": [],
           "price": 1887197,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/10s0rAAebMtohvxqT9xiyfDVnwljMjEsZ/view"
         },
         {
           "id": "aknan6-C105",
@@ -1216,7 +1246,8 @@
           "features": [],
           "price": 2069645,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1i8cfWiQ6tS8M6IX7j8NtDQLf6d1LpgIl/view"
         },
         {
           "id": "aknan6-C106",
@@ -1229,7 +1260,8 @@
           "features": [],
           "price": 1800045,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1HtAuvCu1ckvZMtpv5ZHjaCSesCKX-PES/view"
         },
         {
           "id": "aknan6-C307",
@@ -1242,7 +1274,8 @@
           "features": [],
           "price": 1583717,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1Wp7fjKGHgSSJx8l7zpTh_iuvnEL0Lj_E/view"
         },
         {
           "id": "aknan6-C308",
@@ -1255,7 +1288,8 @@
           "features": [],
           "price": 1327814,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1KcSDULEcnSG8yzmb0ktwHczD4tO2_L4B/view"
         },
         {
           "id": "aknan6-C309",
@@ -1268,7 +1302,8 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1gmP3oPucGTuPXN3PmWC0EzG2FbT2ykkG/view"
         },
         {
           "id": "aknan6-D101",
@@ -1281,7 +1316,8 @@
           "features": [],
           "price": 1800045,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1di7GUINOpWOVUrRZl_y9QquHALplC15C/view"
         },
         {
           "id": "aknan6-D102",
@@ -1294,7 +1330,8 @@
           "features": [],
           "price": 2060685,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1Bc0zw7yrG-Xqt08KpbxooWJp1P0F3Aii/view"
         },
         {
           "id": "aknan6-D103",
@@ -1307,7 +1344,8 @@
           "features": [],
           "price": 1907559,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1DJsMBqsb6nKM-xDj8RM96G--DOq2Mtfj/view"
         },
         {
           "id": "aknan6-D104",
@@ -1320,7 +1358,8 @@
           "features": [],
           "price": 2028105,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1FWAbs_ssJ9SUsIQz7XmsIxsFPFllM0n9/view"
         },
         {
           "id": "aknan6-D105",
@@ -1333,7 +1372,8 @@
           "features": [],
           "price": 1750361,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1rcIYeFXdU72BZawWlnbmJ-_BMTabtZcO/view"
         },
         {
           "id": "aknan6-D106",
@@ -1346,7 +1386,8 @@
           "features": [],
           "price": 1839141,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1cZ2O2a0x1Gl4_LTaL0Qu1DWYVgHvOjjr/view"
         },
         {
           "id": "aknan6-D307",
@@ -1359,7 +1400,8 @@
           "features": [],
           "price": 1384955,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1ZLd6o36DH4g0KBzPObCmQsifBhiEGpoR/view"
         },
         {
           "id": "aknan6-D308",
@@ -1372,7 +1414,8 @@
           "features": [],
           "price": 1579501,
           "status": "available",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1g6IKCUu77_lr2j4INzv414snpLfeDSsT/view"
         },
         {
           "id": "aknan6-D309",
@@ -1385,11 +1428,12 @@
           "features": [],
           "price": "",
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": "https://drive.google.com/file/d/1cxYs-RbWh7H1sDbBDjo1bXLwYMTuILdo/view"
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-08-24T22:31:14.897Z"
+      "updatedAt": "2026-08-24T22:59:27.717Z"
     },
     {
       "id": "maqam-18",
@@ -2181,7 +2225,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-08-24T22:30:57.439Z"
+      "updatedAt": "2026-08-24T22:59:27.717Z"
     }
   ]
 }
