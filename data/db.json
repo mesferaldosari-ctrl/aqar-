@@ -44,7 +44,7 @@
           "bathrooms": 3,
           "features": [],
           "price": "",
-          "status": "available",
+          "status": "sold",
           "notes": "",
           "planFile": null
         },
@@ -804,7 +804,7 @@
         }
       ],
       "createdAt": "2026-08-24T14:12:03Z",
-      "updatedAt": "2026-08-24T21:57:42.060Z"
+      "updatedAt": "2026-08-24T21:57:51.799Z"
     }
   ]
 }
