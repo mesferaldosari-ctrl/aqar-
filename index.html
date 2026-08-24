@@ -212,6 +212,11 @@
     display:flex;flex-direction:column;gap:10px;
   }
   .project-card:hover{border-color:var(--primary);transform:translateY(-1px);}
+  .project-card-cover{
+    margin:-18px -18px 2px;border-radius:var(--radius) var(--radius) 0 0;overflow:hidden;
+    aspect-ratio:16/9;background:var(--surface-2);
+  }
+  .project-card-cover img{width:100%;height:100%;object-fit:cover;display:block;}
   .project-card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;}
   .project-card h3{margin:0;font-size:16.5px;font-weight:800;}
   .project-card .loc{font-size:12.5px;color:var(--ink-dim);margin-top:2px;}
@@ -238,9 +243,11 @@
   .back-link:hover{color:var(--primary);}
   .detail-head{
     background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
-    padding:20px 22px;box-shadow:var(--shadow);margin-bottom:20px;
-    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    box-shadow:var(--shadow);margin-bottom:20px;overflow:hidden;
   }
+  .detail-cover{width:100%;aspect-ratio:21/6;background:var(--surface-2);}
+  .detail-cover img{width:100%;height:100%;object-fit:cover;display:block;}
+  .detail-head-body{padding:20px 22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
   .detail-head h2{margin:0 0 4px;font-size:21px;}
   .detail-head .loc{color:var(--ink-dim);font-size:13.5px;margin-bottom:10px;}
   .detail-head .desc{font-size:13.5px;color:var(--ink-dim);max-width:60ch;}
@@ -258,6 +265,17 @@
   td.num{font-variant-numeric:tabular-nums;}
   .feat-chips{display:flex;gap:5px;flex-wrap:wrap;max-width:220px;white-space:normal;}
   .chip{background:var(--surface-2);color:var(--ink-dim);border:1px solid var(--border);border-radius:999px;padding:2px 9px;font-size:11px;}
+  .photo-gallery{display:flex;gap:4px;align-items:center;}
+  .photo-thumb{width:30px;height:30px;border-radius:6px;overflow:hidden;border:1px solid var(--border);display:block;flex:none;}
+  .photo-thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+  .photo-more{font-size:11px;color:var(--ink-dim);white-space:nowrap;}
+  .photo-edit-grid{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
+  .photo-edit-item{position:relative;width:64px;height:64px;border-radius:8px;overflow:hidden;border:1px solid var(--border);}
+  .photo-edit-item img{width:100%;height:100%;object-fit:cover;display:block;}
+  .photo-edit-item .rm{
+    position:absolute;top:2px;left:2px;width:18px;height:18px;border-radius:50%;border:none;
+    background:rgba(20,15,5,.65);color:#fff;font-size:11px;line-height:18px;text-align:center;cursor:pointer;padding:0;
+  }
   .status-select{
     font-size:12px;font-weight:700;border-radius:999px;padding:5px 10px;border:1px solid transparent;
     cursor:pointer;appearance:none;-webkit-appearance:none;text-align:center;
@@ -536,24 +554,29 @@ function readFileAsBase64(file){
     reader.readAsDataURL(file);
   });
 }
-async function uploadPlanFile(file, unitId, unitNumber){
+function fileExt(file, fallback){
+  var m = /\.([a-zA-Z0-9]+)$/.exec(file.name || "");
+  return m ? m[1].toLowerCase() : (fallback || "bin");
+}
+async function uploadFileToGitHub(file, path, commitMessage){
   if(file.size > MAX_PLAN_BYTES){
-    toast("حجم ملف المخطط كبير جدًا (الحد الأقصى 8 ميجابايت)", "error");
+    toast("حجم الملف كبير جدًا (الحد الأقصى 8 ميجابايت)", "error");
     return null;
   }
-  var extMatch = /\.([a-zA-Z0-9]+)$/.exec(file.name);
-  var ext = extMatch ? extMatch[1].toLowerCase() : "bin";
-  var path = "plans/" + unitId + "." + ext;
   saving = true;
   renderSyncPill();
   try{
     var b64 = await readFileAsBase64(file);
-    var ok = await ghPutFile(path, b64, "رفع مخطط الوحدة " + (unitNumber || ""));
+    var ok = await ghPutFile(path, b64, commitMessage);
     return ok ? path : null;
   }finally{
     saving = false;
     renderSyncPill();
   }
+}
+async function uploadPlanFile(file, unitId, unitNumber){
+  var path = "plans/" + unitId + "." + fileExt(file);
+  return uploadFileToGitHub(file, path, "رفع مخطط الوحدة " + (unitNumber || ""));
 }
 
 function renderSyncPill(){
@@ -706,6 +729,7 @@ function renderDashboard(){
       var c = unitCounts(p);
       var st = statusMeta(PROJECT_STATUSES, p.status);
       html += '<div class="project-card" data-action="open-project" data-id="' + p.id + '">' +
+        (p.coverImage ? '<div class="project-card-cover"><img src="' + escapeHtml(p.coverImage) + '" alt="' + escapeHtml(p.name) + '" loading="lazy" /></div>' : '') +
         '<div class="project-card-top"><div><h3>' + escapeHtml(p.name) + '</h3>' +
         '<div class="loc">' + escapeHtml([p.district, p.city].filter(Boolean).join(" · ")) + '</div></div>' +
         '<span class="status-tag ' + st.cls + '">' + st.label + '</span></div>' +
@@ -737,7 +761,11 @@ function renderProjectDetail(p){
 
   var html = '<button class="back-link" data-action="go-dashboard">→ رجوع لكل المشاريع</button>';
 
-  html += '<div class="detail-head"><div>' +
+  html += '<div class="detail-head">';
+  if(p.coverImage){
+    html += '<div class="detail-cover"><img src="' + escapeHtml(p.coverImage) + '" alt="' + escapeHtml(p.name) + '" /></div>';
+  }
+  html += '<div class="detail-head-body"><div>' +
     '<h2>' + escapeHtml(p.name) + '</h2>' +
     '<div class="loc">' + escapeHtml([p.district, p.city].filter(Boolean).join(" · ")) + '</div>' +
     (p.description ? '<div class="desc">' + escapeHtml(p.description) + '</div>' : '') +
@@ -748,7 +776,7 @@ function renderProjectDetail(p){
     html += '<button class="btn btn-ghost btn-sm" data-action="edit-project" data-id="' + p.id + '">تعديل بيانات المشروع</button>' +
       '<button class="btn btn-danger btn-sm" data-action="delete-project" data-id="' + p.id + '">حذف المشروع</button>';
   }
-  html += '</div></div>';
+  html += '</div></div></div>';
 
   html += '<div class="toolbar"><div class="toolbar-left">' +
     '<input class="search-input" type="text" placeholder="ابحث برقم الوحدة أو الدور..." value="' + escapeHtml(filters.search) + '" data-action="unit-search" />' +
@@ -769,7 +797,7 @@ function renderProjectDetail(p){
     html += '<div class="no-units">' + ((p.units||[]).length === 0 ? "لا توجد وحدات مضافة لهذا المشروع بعد." : "لا توجد وحدات مطابقة لعوامل التصفية.") + '</div>';
   }else{
     html += '<table class="units-table"><thead><tr>' +
-      '<th>رقم الوحدة</th><th>الدور</th><th>النوع</th><th>المساحة</th><th>الغرف</th><th>دورات المياه</th><th>المميزات</th><th>المخطط</th><th>السعر</th><th>الحالة</th>' +
+      '<th>رقم الوحدة</th><th>الدور</th><th>النوع</th><th>المساحة</th><th>الغرف</th><th>دورات المياه</th><th>المميزات</th><th>المخطط</th><th>الصور</th><th>السعر</th><th>الحالة</th>' +
       (role === "admin" ? '<th></th>' : '') +
     '</tr></thead><tbody>';
     units.forEach(function(u){
@@ -782,6 +810,10 @@ function renderProjectDetail(p){
         '<td class="num">' + fmtNum(u.bathrooms) + '</td>' +
         '<td><div class="feat-chips">' + (u.features||[]).map(function(f){ return '<span class="chip">' + escapeHtml(f) + '</span>'; }).join("") + '</div></td>' +
         '<td>' + (u.planFile ? ('<a href="' + escapeHtml(u.planFile) + '" target="_blank" rel="noopener">📄 عرض</a>') : '<span style="color:var(--ink-dim)">—</span>') + '</td>' +
+        '<td>' + ((u.photos && u.photos.length) ? ('<div class="photo-gallery">' +
+            u.photos.slice(0,3).map(function(ph){ return '<a class="photo-thumb" href="' + escapeHtml(ph) + '" target="_blank" rel="noopener"><img src="' + escapeHtml(ph) + '" alt="" loading="lazy" /></a>'; }).join("") +
+            (u.photos.length > 3 ? ('<span class="photo-more">+' + (u.photos.length - 3) + '</span>') : '') +
+          '</div>') : '<span style="color:var(--ink-dim)">—</span>') + '</td>' +
         '<td class="num">' + (u.status === "available" ? fmtPrice(u.price) : statusMeta(UNIT_STATUSES, u.status).label) + '</td>' +
         '<td>' + (role === "admin" ?
           ('<select class="status-select ' + statusMeta(UNIT_STATUSES,u.status).cls + '" data-action="change-unit-status" data-project-id="' + p.id + '" data-unit-id="' + u.id + '">' +
@@ -825,13 +857,18 @@ function projectFormHtml(existing){
       PROJECT_STATUSES.map(function(s){ return '<option value="' + s.v + '"' + (p.status===s.v?" selected":"") + '>' + s.label + '</option>'; }).join("") +
     '</select></div>' +
     '<div class="field"><label>نبذة عن المشروع</label><textarea name="description">' + escapeHtml(p.description) + '</textarea></div>' +
+    '<div class="field"><label>الصورة الرئيسية للمشروع</label>' +
+      (p.coverImage ? ('<div class="hint">الصورة الحالية: <a href="' + escapeHtml(p.coverImage) + '" target="_blank" rel="noopener">عرض الصورة</a> — رفع صورة جديدة يستبدلها</div>') : '') +
+      '<input name="coverImage" type="file" accept="image/*" />' +
+      '<div class="hint">حد أقصى 8 ميجابايت. يفضل أخذها من الصورة الرئيسية في بروشور المشروع.</div>' +
+    '</div>' +
     '<div class="modal-actions"><button type="submit" class="btn btn-primary">' + (existing ? "حفظ التعديلات" : "إضافة المشروع") + '</button>' +
     '<button type="button" class="btn btn-ghost" data-action="close-modal">إلغاء</button></div>' +
   '</form>';
 }
 
 function unitFormHtml(projectId, existing, newId){
-  var u = existing || { unitNumber:"", floor:"", type:UNIT_TYPES[0], area:"", rooms:"", bathrooms:"", features:[], price:"", status:"available", notes:"", planFile:null };
+  var u = existing || { unitNumber:"", floor:"", type:UNIT_TYPES[0], area:"", rooms:"", bathrooms:"", features:[], price:"", status:"available", notes:"", planFile:null, photos:[] };
   return '' +
   '<h3>' + (existing ? "تعديل بيانات الوحدة" : "إضافة وحدة جديدة") + '</h3>' +
   '<form data-form="unit" data-project-id="' + projectId + '" data-id="' + (existing ? existing.id : "") + '" data-new-id="' + (existing ? "" : escapeHtml(newId)) + '">' +
@@ -862,6 +899,15 @@ function unitFormHtml(projectId, existing, newId){
       (u.planFile ? '<div class="hint">المخطط الحالي: <a href="' + escapeHtml(u.planFile) + '" target="_blank" rel="noopener">عرض الملف</a> — رفع ملف جديد يستبدله</div>' : '') +
       '<input name="planFile" type="file" accept="image/*,.pdf" />' +
       '<div class="hint">حد أقصى 8 ميجابايت (صورة أو PDF لمخطط الوحدة).</div>' +
+    '</div>' +
+    '<div class="field"><label>صور الوحدة</label>' +
+      ((u.photos && u.photos.length) ? ('<div class="photo-edit-grid">' + u.photos.map(function(ph, i){
+        return '<div class="photo-edit-item"><img src="' + escapeHtml(ph) + '" alt="" />' +
+          (existing ? '<button type="button" class="rm" data-action="remove-unit-photo" data-project-id="' + projectId + '" data-unit-id="' + existing.id + '" data-photo-index="' + i + '" title="حذف الصورة">✕</button>' : '') +
+        '</div>';
+      }).join("") + '</div>') : '') +
+      '<input name="photos" type="file" accept="image/*" multiple />' +
+      '<div class="hint">يمكن اختيار أكثر من صورة دفعة واحدة (حد أقصى 8 ميجابايت لكل صورة). الصور الجديدة تُضاف لما هو موجود.</div>' +
     '</div>' +
     '<div class="field"><label>ملاحظات</label><textarea name="notes">' + escapeHtml(u.notes) + '</textarea></div>' +
     '<div class="modal-actions"><button type="submit" class="btn btn-primary">' + (existing ? "حفظ التعديلات" : "إضافة الوحدة") + '</button>' +
@@ -978,6 +1024,20 @@ function onClick(e){
       }
       break;
     }
+    case "remove-unit-photo": {
+      var rpid = t.getAttribute("data-project-id"), ruid = t.getAttribute("data-unit-id");
+      var rIndex = Number(t.getAttribute("data-photo-index"));
+      var rproj = DB.projects.find(function(x){ return x.id===rpid; });
+      var runit = rproj && (rproj.units||[]).find(function(x){ return x.id===ruid; });
+      if(!runit || !runit.photos) return;
+      if(confirm("هل تريد حذف هذه الصورة من الوحدة؟")){
+        runit.photos.splice(rIndex, 1);
+        rproj.updatedAt = nowIso();
+        openModal(unitFormHtml(rpid, runit));
+        saveToGitHub("حذف صورة من الوحدة: " + runit.unitNumber).then(function(ok){ if(ok) toast("تم حذف الصورة وحفظ التغيير", "ok"); });
+      }
+      break;
+    }
     case "close-modal": closeModal(); break;
   }
 }
@@ -1076,12 +1136,27 @@ async function onSubmit(e){
     };
     if(!data2.name || !data2.city){ toast("يرجى تعبئة اسم المشروع والمدينة", "error"); return; }
     var isNew = !id;
-    if(id){
-      var proj = DB.projects.find(function(x){ return x.id===id; });
+    var proj = isNew ? null : DB.projects.find(function(x){ return x.id===id; });
+    var newId = id || uid();
+    data2.coverImage = isNew ? null : (proj ? (proj.coverImage || null) : null);
+
+    var coverInput = form.querySelector('[name=coverImage]');
+    var coverFile = coverInput && coverInput.files && coverInput.files[0];
+    if(coverFile){
+      var pSubmitBtn = form.querySelector('button[type=submit]');
+      if(pSubmitBtn) pSubmitBtn.disabled = true;
+      var coverPath = "covers/" + newId + "." + fileExt(coverFile);
+      var uploadedCover = await uploadFileToGitHub(coverFile, coverPath, "رفع الصورة الرئيسية للمشروع: " + data2.name);
+      if(pSubmitBtn) pSubmitBtn.disabled = false;
+      if(!uploadedCover) return; /* error already toasted, keep the modal open so nothing is lost */
+      data2.coverImage = uploadedCover;
+    }
+
+    if(!isNew){
       Object.assign(proj, data2);
       proj.updatedAt = nowIso();
     }else{
-      DB.projects.push(Object.assign({ id: uid(), units: [], createdAt: nowIso(), updatedAt: nowIso() }, data2));
+      DB.projects.push(Object.assign({ id: newId, units: [], createdAt: nowIso(), updatedAt: nowIso() }, data2));
     }
     closeModal();
     render();
@@ -1126,6 +1201,21 @@ async function onSubmit(e){
       if(submitBtn) submitBtn.disabled = false;
       if(!uploadedPath) return; /* error already toasted, keep the modal open so nothing is lost */
       udata.planFile = uploadedPath;
+    }
+
+    var photosInput = form.querySelector('[name=photos]');
+    var newPhotoFiles = photosInput && photosInput.files ? Array.prototype.slice.call(photosInput.files) : [];
+    udata.photos = existingUnit ? (existingUnit.photos || []).slice() : [];
+    if(newPhotoFiles.length){
+      var pSubmitBtn2 = form.querySelector('button[type=submit]');
+      if(pSubmitBtn2) pSubmitBtn2.disabled = true;
+      for(var pi = 0; pi < newPhotoFiles.length; pi++){
+        var pf = newPhotoFiles[pi];
+        var photoPath = "photos/" + unitId + "-" + (udata.photos.length + 1) + "-" + Date.now().toString(36) + Math.random().toString(36).slice(2,6) + "." + fileExt(pf);
+        var uploadedPhoto = await uploadFileToGitHub(pf, photoPath, "رفع صورة للوحدة " + udata.unitNumber);
+        if(uploadedPhoto) udata.photos.push(uploadedPhoto);
+      }
+      if(pSubmitBtn2) pSubmitBtn2.disabled = false;
     }
 
     if(existingUnit){
