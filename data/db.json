@@ -32,7 +32,8 @@
           "features": [],
           "price": 1190000,
           "status": "sold",
-          "notes": ""
+          "notes": "",
+          "planFile": null
         },
         {
           "id": "seed-A3",
@@ -804,7 +805,7 @@
         }
       ],
       "createdAt": "2026-08-24T14:12:03Z",
-      "updatedAt": "2026-08-24T22:00:34.639Z"
+      "updatedAt": "2026-08-24T22:00:52.201Z"
     }
   ]
 }
