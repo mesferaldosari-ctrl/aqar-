@@ -1190,7 +1190,7 @@
           "features": [],
           "price": 2100000,
           "status": "available",
-          "notes": "شقة العرض - غير معروضة للبيع",
+          "notes": "شقة العرض - للبيع",
           "planFile": "https://drive.google.com/file/d/1EVI1UYo1E_ZImKpw2Hc6uoFNDgH0WZBD/view",
           "photos": []
         },
@@ -1434,7 +1434,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-08-25T10:47:31.048Z",
+      "updatedAt": "2026-08-25T10:47:48.597Z",
       "coverImage": null
     },
     {
