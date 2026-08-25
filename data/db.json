@@ -1386,7 +1386,7 @@
           "bathrooms": 4,
           "features": [],
           "price": 1839141,
-          "status": "available",
+          "status": "sold",
           "notes": "",
           "planFile": "https://drive.google.com/file/d/1cZ2O2a0x1Gl4_LTaL0Qu1DWYVgHvOjjr/view"
         },
@@ -1434,7 +1434,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-08-25T10:48:22.667Z",
+      "updatedAt": "2026-08-25T10:48:26.644Z",
       "coverImage": null
     },
     {
