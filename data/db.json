@@ -2230,18 +2230,6 @@
       "createdAt": "2026-08-24T20:00:00Z",
       "updatedAt": "2026-08-25T10:55:45.694Z",
       "coverImage": null
-    },
-    {
-      "id": "mtakljwx5uhfvi",
-      "units": [],
-      "createdAt": "2026-08-26T20:52:37.522Z",
-      "updatedAt": "2026-08-26T20:52:37.522Z",
-      "name": "نموذج عقد عمل",
-      "city": "الرياض",
-      "district": "النرجس",
-      "status": "planning",
-      "description": "",
-      "coverImage": null
     }
   ]
 }
