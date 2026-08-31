@@ -2572,6 +2572,580 @@
       ],
       "updatedAt": "2026-08-26T21:11:25.048Z",
       "createdAt": "2026-08-26T21:11:25.048Z"
+    },
+    {
+      "id": "saas-qairawan-91",
+      "name": "ساس القيروان 91",
+      "city": "الرياض",
+      "district": "حي القيروان",
+      "status": "construction",
+      "description": "مشروع ساس القيروان 91 يقع في موقع راقٍ من حي القيروان بالرياض، على بعد دقائق من مشروع المربع الجديد وقريب من طريق الملك سلمان. يتكون المشروع من 14 فيلا (28 وحدة بينت هاوس: دور أرضي ودور علوي لكل فيلا) بتصاميم عصرية تجمع بين رحابة المساحات وأناقة التفاصيل. المساحات من 307م² إلى 408م²، والأسعار من 2,190,000 إلى 2,450,000 ريال (فيلا العرض رقم 13 مؤثثة بالكامل بسعر مختلف). المطور: شركة سهل العقارية.",
+      "units": [
+        {
+          "unitNumber": "فيلا 1 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 325,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2250000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 1 (فيلا 1). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1K629vjgfWcM6sjbrF-8-2YLc1AV6hFTJ/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1tHlQx5VvU1IJHqXc6iGFDrYvt42B29Ft?usp=drive_link",
+          "id": "mth5p0q9nillyl"
+        },
+        {
+          "unitNumber": "فيلا 1 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 384,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2330000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 1 (فيلا 1). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1B_uCL8hqbp6GEqj8iTHNPpfWTvyyMKlz/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/13K7-6xEeBncR73pD02onjQtqrtQNRKWq?usp=drive_link",
+          "id": "mth5p0q9jawf5q"
+        },
+        {
+          "unitNumber": "فيلا 2 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 2 (فيلا 2). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1HHR_Egkvq_8kROZgHY7XdzkztYUX1Xmy/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1KMl6LJSiyUDaZkNZudpLRS4fZ3jHn8nM?usp=drive_link",
+          "id": "mth5p0q973rmsf"
+        },
+        {
+          "unitNumber": "فيلا 2 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2390000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 2 (فيلا 2). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1EVxc7TeWK8YvGyfuw2EPHDDzBvHqFe_X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1G8du8QszSej1hN2IwBKi6T1Oxeq4oYw_?usp=drive_link",
+          "id": "mth5p0q9n9vrfw"
+        },
+        {
+          "unitNumber": "فيلا 3 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 2 (فيلا 3). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1HHR_Egkvq_8kROZgHY7XdzkztYUX1Xmy/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1KMl6LJSiyUDaZkNZudpLRS4fZ3jHn8nM?usp=drive_link",
+          "id": "mth5p0q9396rd8"
+        },
+        {
+          "unitNumber": "فيلا 3 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2390000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 2 (فيلا 3). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1EVxc7TeWK8YvGyfuw2EPHDDzBvHqFe_X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1G8du8QszSej1hN2IwBKi6T1Oxeq4oYw_?usp=drive_link",
+          "id": "mth5p0q9w4p9zn"
+        },
+        {
+          "unitNumber": "فيلا 4 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 2 (فيلا 4). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1HHR_Egkvq_8kROZgHY7XdzkztYUX1Xmy/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1KMl6LJSiyUDaZkNZudpLRS4fZ3jHn8nM?usp=drive_link",
+          "id": "mth5p0q95kol8a"
+        },
+        {
+          "unitNumber": "فيلا 4 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2390000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 2 (فيلا 4). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1EVxc7TeWK8YvGyfuw2EPHDDzBvHqFe_X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1G8du8QszSej1hN2IwBKi6T1Oxeq4oYw_?usp=drive_link",
+          "id": "mth5p0q9agxv4u"
+        },
+        {
+          "unitNumber": "فيلا 5 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 2 (فيلا 5). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1HHR_Egkvq_8kROZgHY7XdzkztYUX1Xmy/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1KMl6LJSiyUDaZkNZudpLRS4fZ3jHn8nM?usp=drive_link",
+          "id": "mth5p0q9l0ee5e"
+        },
+        {
+          "unitNumber": "فيلا 5 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2390000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 2 (فيلا 5). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1EVxc7TeWK8YvGyfuw2EPHDDzBvHqFe_X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1G8du8QszSej1hN2IwBKi6T1Oxeq4oYw_?usp=drive_link",
+          "id": "mth5p0q91h2mye"
+        },
+        {
+          "unitNumber": "فيلا 6 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 307,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2190000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 3 (فيلا 6). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1-vaOmrBzRts4W03YbvCgwCOyLFdI9v-X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/19uo9vC08bmvFs_YiT4Diu3LV4ACeLsq3?usp=drive_link",
+          "id": "mth5p0q9ybkhko"
+        },
+        {
+          "unitNumber": "فيلا 6 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 373,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 3 (فيلا 6). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1KA4mFLS70D9q1pv5Aqo0mgn1OhQzgeCn/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/15rdo6JR4RJxqvaB3txBLiJkSXeqKOisi?usp=drive_link",
+          "id": "mth5p0q9vdzlua"
+        },
+        {
+          "unitNumber": "فيلا 7 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 307,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2190000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 3 (فيلا 7). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1-vaOmrBzRts4W03YbvCgwCOyLFdI9v-X/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/19uo9vC08bmvFs_YiT4Diu3LV4ACeLsq3?usp=drive_link",
+          "id": "mth5p0q9mogbx2"
+        },
+        {
+          "unitNumber": "فيلا 7 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 373,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 3 (فيلا 7). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1KA4mFLS70D9q1pv5Aqo0mgn1OhQzgeCn/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/15rdo6JR4RJxqvaB3txBLiJkSXeqKOisi?usp=drive_link",
+          "id": "mth5p0q97yhx8i"
+        },
+        {
+          "unitNumber": "فيلا 8 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 8). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
+          "id": "mth5p0q985crb9"
+        },
+        {
+          "unitNumber": "فيلا 8 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2450000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 8). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
+          "id": "mth5p0q9a1jo5d"
+        },
+        {
+          "unitNumber": "فيلا 9 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 9). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
+          "id": "mth5p0q9g9igri"
+        },
+        {
+          "unitNumber": "فيلا 9 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2450000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 9). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
+          "id": "mth5p0q9t4as5o"
+        },
+        {
+          "unitNumber": "فيلا 10 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 10). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
+          "id": "mth5p0q9yr3cqx"
+        },
+        {
+          "unitNumber": "فيلا 10 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2450000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 10). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
+          "id": "mth5p0q9tszmlz"
+        },
+        {
+          "unitNumber": "فيلا 11 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 11). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
+          "id": "mth5p0q9vrwh5y"
+        },
+        {
+          "unitNumber": "فيلا 11 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2450000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 11). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
+          "id": "mth5p0q93jjt9m"
+        },
+        {
+          "unitNumber": "فيلا 12 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2290000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 12). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
+          "id": "mth5p0q9p58xbw"
+        },
+        {
+          "unitNumber": "فيلا 12 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2450000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 12). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
+          "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
+          "id": "mth5p0q98ehyti"
+        },
+        {
+          "unitNumber": "فيلا 13 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 316,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي",
+            "مؤثثة بالكامل"
+          ],
+          "price": 2750000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج فيلا العرض (فيلا 13). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1BMeKauKmjWGFOmd8trZoNUpEiPv-0k9J/view?usp=drive_link | فيلا العرض (فيلا 13) - شاملة التأثيث الكامل.",
+          "planFile": "https://drive.google.com/drive/folders/17PNK-FwA5pbT8CYFQzEQXOqLY15e7W2o?usp=drive_link",
+          "id": "mth5p0q91owu66"
+        },
+        {
+          "unitNumber": "فيلا 13 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 408,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي",
+            "مؤثثة بالكامل"
+          ],
+          "price": 2790000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج فيلا العرض (فيلا 13). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1w41xNPyVr7ILwONSPkoTEMDMJfwWaBJQ/view?usp=drive_link | فيلا العرض (فيلا 13) - شاملة التأثيث الكامل.",
+          "planFile": "https://drive.google.com/drive/folders/1uMkXa5_qa1YGEDCB8kjeGxlv2PDg7jMF?usp=drive_link",
+          "id": "mth5p0q91k6qfv"
+        },
+        {
+          "unitNumber": "فيلا 14 - بينت هاوس الأرضي",
+          "floor": "الأرضي",
+          "type": "دور",
+          "area": 325,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2250000,
+          "status": "available",
+          "notes": "بينت هاوس الأرضي - نموذج 1 (فيلا 14). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1K629vjgfWcM6sjbrF-8-2YLc1AV6hFTJ/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/1tHlQx5VvU1IJHqXc6iGFDrYvt42B29Ft?usp=drive_link",
+          "id": "mth5p0q9o8bbi0"
+        },
+        {
+          "unitNumber": "فيلا 14 - بينت هاوس العلوي",
+          "floor": "العلوي",
+          "type": "دور",
+          "area": 384,
+          "rooms": "",
+          "bathrooms": "",
+          "features": [
+            "بلكونات",
+            "حدائق داخلية",
+            "تكييف مخفي",
+            "مصعد",
+            "نظام ذكي"
+          ],
+          "price": 2330000,
+          "status": "available",
+          "notes": "بينت هاوس العلوي - نموذج 1 (فيلا 14). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1B_uCL8hqbp6GEqj8iTHNPpfWTvyyMKlz/view?usp=drive_link",
+          "planFile": "https://drive.google.com/drive/folders/13K7-6xEeBncR73pD02onjQtqrtQNRKWq?usp=drive_link",
+          "id": "mth5p0q9x2b41y"
+        }
+      ],
+      "updatedAt": "2026-08-31T11:29:48.273Z",
+      "createdAt": "2026-08-31T11:29:48.273Z"
     }
   ]
 }
