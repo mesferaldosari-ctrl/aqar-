@@ -2775,8 +2775,8 @@
           "floor": "العلوي",
           "type": "دور",
           "area": 408,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 4,
+          "bathrooms": 7,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -2788,7 +2788,8 @@
           "status": "available",
           "notes": "بينت هاوس العلوي - نموذج 2 (فيلا 5). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1EVxc7TeWK8YvGyfuw2EPHDDzBvHqFe_X/view?usp=drive_link",
           "planFile": "https://drive.google.com/drive/folders/1G8du8QszSej1hN2IwBKi6T1Oxeq4oYw_?usp=drive_link",
-          "id": "mth5p0q91h2mye"
+          "id": "mth5p0q91h2mye",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 6 - بينت هاوس الأرضي",
@@ -3155,7 +3156,7 @@
           "photos": []
         }
       ],
-      "updatedAt": "2026-08-31T11:48:05.102Z",
+      "updatedAt": "2026-08-31T11:48:15.521Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
