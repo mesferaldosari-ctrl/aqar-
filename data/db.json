@@ -3110,8 +3110,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 325,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 4,
+          "bathrooms": 4,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -3123,7 +3123,8 @@
           "status": "available",
           "notes": "بينت هاوس الأرضي - نموذج 1 (فيلا 14). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1K629vjgfWcM6sjbrF-8-2YLc1AV6hFTJ/view?usp=drive_link",
           "planFile": "https://drive.google.com/drive/folders/1tHlQx5VvU1IJHqXc6iGFDrYvt42B29Ft?usp=drive_link",
-          "id": "mth5p0q9o8bbi0"
+          "id": "mth5p0q9o8bbi0",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 14 - بينت هاوس العلوي",
@@ -3146,7 +3147,7 @@
           "id": "mth5p0q9x2b41y"
         }
       ],
-      "updatedAt": "2026-08-31T11:44:58.367Z",
+      "updatedAt": "2026-08-31T11:45:11.090Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
