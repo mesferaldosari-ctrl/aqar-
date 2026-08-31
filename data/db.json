@@ -3085,8 +3085,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 316,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 4,
+          "bathrooms": 4,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -3099,7 +3099,8 @@
           "status": "available",
           "notes": "بينت هاوس الأرضي - نموذج فيلا العرض (فيلا 13). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1BMeKauKmjWGFOmd8trZoNUpEiPv-0k9J/view?usp=drive_link | فيلا العرض (فيلا 13) - شاملة التأثيث الكامل.",
           "planFile": "https://drive.google.com/drive/folders/17PNK-FwA5pbT8CYFQzEQXOqLY15e7W2o?usp=drive_link",
-          "id": "mth5p0q91owu66"
+          "id": "mth5p0q91owu66",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 13 - بينت هاوس العلوي",
@@ -3165,7 +3166,7 @@
           "photos": []
         }
       ],
-      "updatedAt": "2026-08-31T11:55:13.265Z",
+      "updatedAt": "2026-08-31T11:55:57.255Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
