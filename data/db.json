@@ -2896,7 +2896,7 @@
             "نظام ذكي"
           ],
           "price": 2450000,
-          "status": "available",
+          "status": "sold",
           "notes": "بينت هاوس العلوي - نموذج 4 (فيلا 8). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1StMUKRP253Jj8KQaMaARixJAq6CpQ47r/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
           "planFile": "https://drive.google.com/drive/folders/1-EDijeOn618F9rkWprFszpnwbSvZEwk6?usp=drive_link",
           "id": "mth5p0q9a1jo5d"
@@ -3144,7 +3144,7 @@
           "id": "mth5p0q9x2b41y"
         }
       ],
-      "updatedAt": "2026-08-31T11:39:17.048Z",
+      "updatedAt": "2026-08-31T11:39:22.029Z",
       "createdAt": "2026-08-31T11:29:48.273Z"
     }
   ]
