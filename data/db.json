@@ -2962,8 +2962,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 316,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 4,
+          "bathrooms": 4,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -2975,7 +2975,8 @@
           "status": "available",
           "notes": "بينت هاوس الأرضي - نموذج 4 (فيلا 10). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1SJ9pqSa-fzQaTp2P1OvZriSTwu0YGFYp/view?usp=drive_link | بحسب البروشور: من بين وحدات هذا النموذج (الفلل 8-9-10-11-12) توجد وحدة واحدة مباعة من الأدوار الأرضية، و4 وحدات مباعة من الأدوار العلوية. الفيلا بالتحديد غير مذكورة بالبروشور - يرجى تحديد الفيلا الفعلية وتحديث حالتها لـ\"مباعة\".",
           "planFile": "https://drive.google.com/drive/folders/1r5-nPO3SNNKs1MEf3dx1VfmI6kZEdjbG?usp=drive_link",
-          "id": "mth5p0q9yr3cqx"
+          "id": "mth5p0q9yr3cqx",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 10 - بينت هاوس العلوي",
@@ -3162,7 +3163,7 @@
           "photos": []
         }
       ],
-      "updatedAt": "2026-08-31T11:50:23.175Z",
+      "updatedAt": "2026-08-31T11:50:33.956Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
