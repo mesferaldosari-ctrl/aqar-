@@ -2796,8 +2796,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 307,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 3,
+          "bathrooms": 3,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -2809,7 +2809,8 @@
           "status": "available",
           "notes": "بينت هاوس الأرضي - نموذج 3 (فيلا 6). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1-vaOmrBzRts4W03YbvCgwCOyLFdI9v-X/view?usp=drive_link",
           "planFile": "https://drive.google.com/drive/folders/19uo9vC08bmvFs_YiT4Diu3LV4ACeLsq3?usp=drive_link",
-          "id": "mth5p0q9ybkhko"
+          "id": "mth5p0q9ybkhko",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 6 - بينت هاوس العلوي",
@@ -3156,7 +3157,7 @@
           "photos": []
         }
       ],
-      "updatedAt": "2026-08-31T11:48:15.521Z",
+      "updatedAt": "2026-08-31T11:48:41.183Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
