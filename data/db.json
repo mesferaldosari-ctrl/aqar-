@@ -3131,8 +3131,8 @@
           "floor": "العلوي",
           "type": "دور",
           "area": 384,
-          "rooms": "",
-          "bathrooms": "",
+          "rooms": 3,
+          "bathrooms": 6,
           "features": [
             "بلكونات",
             "حدائق داخلية",
@@ -3144,10 +3144,11 @@
           "status": "available",
           "notes": "بينت هاوس العلوي - نموذج 1 (فيلا 14). | عدد الغرف ودورات المياه غير متوفر بالبروشور النصي - راجع رابط المواصفات: https://drive.google.com/file/d/1B_uCL8hqbp6GEqj8iTHNPpfWTvyyMKlz/view?usp=drive_link",
           "planFile": "https://drive.google.com/drive/folders/13K7-6xEeBncR73pD02onjQtqrtQNRKWq?usp=drive_link",
-          "id": "mth5p0q9x2b41y"
+          "id": "mth5p0q9x2b41y",
+          "photos": []
         }
       ],
-      "updatedAt": "2026-08-31T11:45:11.090Z",
+      "updatedAt": "2026-08-31T11:45:23.528Z",
       "createdAt": "2026-08-31T11:29:48.273Z",
       "coverImage": null
     }
