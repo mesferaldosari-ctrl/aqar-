@@ -1534,7 +1534,7 @@
           "bathrooms": 4,
           "features": [],
           "price": "",
-          "status": "reserved",
+          "status": "available",
           "notes": ""
         },
         {
@@ -2228,7 +2228,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-08-25T10:55:45.694Z",
+      "updatedAt": "2026-09-10T12:53:47.695Z",
       "coverImage": null
     },
     {
