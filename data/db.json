@@ -2571,7 +2571,7 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "available",
+          "status": "reserved",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
           "id": "mu302vzfuywit8"
@@ -2644,7 +2644,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:36:20.824Z",
+      "updatedAt": "2026-09-15T18:36:34.967Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
