@@ -2267,8 +2267,8 @@
           "floor": "الأول",
           "type": "دور",
           "area": 180.22,
-          "rooms": 5,
-          "bathrooms": 3,
+          "rooms": 3,
+          "bathrooms": 5,
           "features": [
             "3 غرف نوم",
             "صالة معيشة",
@@ -2644,7 +2644,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:36:34.967Z",
+      "updatedAt": "2026-09-15T18:39:52.309Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
