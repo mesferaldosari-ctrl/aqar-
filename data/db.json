@@ -2291,7 +2291,7 @@
           "floor": "العلوي",
           "type": "دور",
           "area": 118.42,
-          "rooms": 3,
+          "rooms": 1,
           "bathrooms": 3,
           "features": [
             "غرفتين ماستر + غرفة نوم",
@@ -2306,7 +2306,8 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfiuznsn"
+          "id": "mu302vzfiuznsn",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 2 - دور A",
@@ -2644,7 +2645,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:39:52.309Z",
+      "updatedAt": "2026-09-15T18:40:53.646Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
