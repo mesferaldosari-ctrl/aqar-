@@ -2584,8 +2584,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.76,
-          "rooms": 1,
-          "bathrooms": 2,
+          "rooms": 4,
+          "bathrooms": 5,
           "features": [
             "مجلس",
             "صالة معيشة",
@@ -2599,7 +2599,8 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzf3mf7lh"
+          "id": "mu302vzf3mf7lh",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 6 - دور B",
@@ -2647,7 +2648,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:42:24.546Z",
+      "updatedAt": "2026-09-15T19:50:11.001Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
