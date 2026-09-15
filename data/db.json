@@ -2348,7 +2348,7 @@
             "بلكونة"
           ],
           "price": 1250000,
-          "status": "available",
+          "status": "reserved",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
           "id": "mu302vzfipvay6"
@@ -2504,7 +2504,7 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "available",
+          "status": "sold",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
           "id": "mu302vzfmfugh2"
@@ -2644,7 +2644,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:35:40.428Z",
+      "updatedAt": "2026-09-15T18:36:20.824Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
