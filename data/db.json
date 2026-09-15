@@ -2314,8 +2314,8 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.89,
-          "rooms": 1,
-          "bathrooms": 2,
+          "rooms": 4,
+          "bathrooms": 5,
           "features": [
             "مجلس",
             "صالة معيشة",
@@ -2329,7 +2329,8 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfivjy5u"
+          "id": "mu302vzfivjy5u",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 2 - دور B",
@@ -2645,7 +2646,7 @@
           "id": "mu302vzfnpmnus"
         }
       ],
-      "updatedAt": "2026-09-15T18:40:53.646Z",
+      "updatedAt": "2026-09-15T18:41:42.743Z",
       "createdAt": "2026-09-15T18:23:33.483Z",
       "coverImage": null
     },
