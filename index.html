@@ -491,9 +491,24 @@ async function ghPutFile(path, base64Content, commitMessage){
     return false;
   }
   var apiUrl = "https://api.github.com/repos/" + encodeURIComponent(cfg.owner) + "/" + encodeURIComponent(cfg.repo) + "/contents/" + path;
+  var REQUEST_TIMEOUT_MS = 20000;
+  function fetchWithTimeout(url, opts){
+    var controller = new AbortController();
+    var timedOut = false;
+    var timer = setTimeout(function(){ timedOut = true; controller.abort(); }, REQUEST_TIMEOUT_MS);
+    var merged = Object.assign({}, opts, { signal: controller.signal });
+    return fetch(url, merged).then(
+      function(res){ clearTimeout(timer); return res; },
+      function(err){
+        clearTimeout(timer);
+        if(timedOut) throw { code: "timeout" };
+        throw err;
+      }
+    );
+  }
   try{
     var sha = null;
-    var getRes = await fetch(apiUrl, {
+    var getRes = await fetchWithTimeout(apiUrl, {
       headers: { "Authorization": "token " + cfg.token, "Accept": "application/vnd.github+json" }
     });
     if(getRes.status === 200){
@@ -506,7 +521,7 @@ async function ghPutFile(path, base64Content, commitMessage){
     var body = { message: commitMessage || "تحديث من الموقع", content: base64Content };
     if(sha) body.sha = sha;
 
-    var putRes = await fetch(apiUrl, {
+    var putRes = await fetchWithTimeout(apiUrl, {
       method: "PUT",
       headers: {
         "Authorization": "token " + cfg.token,
@@ -525,9 +540,17 @@ async function ghPutFile(path, base64Content, commitMessage){
       toast("مفتاح GitHub غير صالح أو منتهي الصلاحية — افتح إعدادات GitHub وحدّثه", "error");
       return false;
     }
+    if(putRes.status === 413 || putRes.status === 422){
+      toast("حجم البيانات كبير جدًا لحفظه دفعة وحدة — تواصل مع الدعم الفني", "error");
+      return false;
+    }
     throw { code: "http_" + putRes.status };
   }catch(err){
-    toast("تعذر الحفظ على GitHub، تحقق من الاتصال أو الإعدادات وحاول مرة أخرى", "error");
+    if(err && err.code === "timeout"){
+      toast("انتهت مهلة الاتصال بـ GitHub (20 ثانية) — تحقق من الإنترنت أو جرّب إيقاف أي VPN/إضافة متصفح وحاول مرة أخرى", "error");
+    }else{
+      toast("تعذر الحفظ على GitHub، تحقق من الاتصال أو الإعدادات وحاول مرة أخرى", "error");
+    }
     return false;
   }
 }
