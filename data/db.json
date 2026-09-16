@@ -2233,10 +2233,10 @@
     },
     {
       "id": "adwar-alarid",
-      "name": "أدوار تبر - حي العارض",
+      "name": "أدوار سكنية - حي العارض",
       "city": "الرياض",
       "district": "حي العارض",
-      "status": "delivered",
+      "status": "ready",
       "description": "مشروع أدوار العارض من شركة تبر للتطوير العقاري، يقع في حي العارض شمال الرياض على بعد 800م من طريق الملك عبدالعزيز و1900م من طريق الملك فهد. يتكوّن من 6 فلل، كل فيلا 3 أدوار سكنية مستقلة تُباع كل وحدة بشكل منفصل (الدور الأرضي A، الدور الأول B، الدور العلوي C). من أبرز مميزات المشروع: موقف خاص لكل دور، نظام منزلي ذكي (Smart System)، خزان مياه خاص لكل وحدة سعة 18م³، غرفة نوم خادمة مع حمام خاص لكل وحدة، وسطح خلفية 40م² في دور الملحق. ضمانات تمتد حتى 25 سنة.",
       "units": [
         {
@@ -2244,14 +2244,14 @@
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.76,
-          "rooms": 4,
-          "bathrooms": 5,
+          "rooms": 1,
+          "bathrooms": 2,
           "features": [
             "مجلس",
             "صالة معيشة",
             "مطبخ",
             "غرفة نوم خادمة وحمام خاص",
-            "خزان مياه خاص 4 غرف نوم 2 ماستر  18م³",
+            "خزان مياه خاص 18م³",
             "نظام منزلي ذكي",
             "موقف خاص"
           ],
@@ -2259,8 +2259,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfmycgt3",
-          "photos": []
+          "id": "mu4kwsr3wjfl9u"
         },
         {
           "unitNumber": "فيلا 1 - دور B",
@@ -2268,7 +2267,7 @@
           "type": "دور",
           "area": 180.22,
           "rooms": 3,
-          "bathrooms": 5,
+          "bathrooms": 3,
           "features": [
             "3 غرف نوم",
             "صالة معيشة",
@@ -2283,15 +2282,14 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzflwtciv",
-          "photos": []
+          "id": "mu4kwsr3b22xun"
         },
         {
           "unitNumber": "فيلا 1 - دور C",
           "floor": "العلوي",
           "type": "دور",
           "area": 118.42,
-          "rooms": 1,
+          "rooms": 3,
           "bathrooms": 3,
           "features": [
             "غرفتين ماستر + غرفة نوم",
@@ -2306,16 +2304,15 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfiuznsn",
-          "photos": []
+          "id": "mu4kwsr3oo8m3i"
         },
         {
           "unitNumber": "فيلا 2 - دور A",
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.89,
-          "rooms": 4,
-          "bathrooms": 5,
+          "rooms": 1,
+          "bathrooms": 2,
           "features": [
             "مجلس",
             "صالة معيشة",
@@ -2329,8 +2326,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfivjy5u",
-          "photos": []
+          "id": "mu4kwsr3y21a66"
         },
         {
           "unitNumber": "فيلا 2 - دور B",
@@ -2350,10 +2346,10 @@
             "بلكونة"
           ],
           "price": 1250000,
-          "status": "reserved",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfipvay6"
+          "id": "mu4kwsr3m0b5uy"
         },
         {
           "unitNumber": "فيلا 2 - دور C",
@@ -2372,18 +2368,18 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "sold",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfss7ewk"
+          "id": "mu4kwsr3qp86wl"
         },
         {
           "unitNumber": "فيلا 3 - دور A",
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.89,
-          "rooms": 4,
-          "bathrooms": 5,
+          "rooms": 1,
+          "bathrooms": 2,
           "features": [
             "مجلس",
             "صالة معيشة",
@@ -2397,8 +2393,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzf7e9ext",
-          "photos": []
+          "id": "mu4kwsr3ivz09n"
         },
         {
           "unitNumber": "فيلا 3 - دور B",
@@ -2421,7 +2416,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzf69eano"
+          "id": "mu4kwsr3jh22uu"
         },
         {
           "unitNumber": "فيلا 3 - دور C",
@@ -2440,10 +2435,10 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "sold",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfa8m34c"
+          "id": "mu4kwsr3ffx87s"
         },
         {
           "unitNumber": "فيلا 4 - دور A",
@@ -2465,7 +2460,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzf6dq8qm"
+          "id": "mu4kwsr3dtteuq"
         },
         {
           "unitNumber": "فيلا 4 - دور B",
@@ -2488,7 +2483,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfh6n18s"
+          "id": "mu4kwsr3y6rj15"
         },
         {
           "unitNumber": "فيلا 4 - دور C",
@@ -2507,10 +2502,10 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "sold",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfmfugh2"
+          "id": "mu4kwsr4sghkiy"
         },
         {
           "unitNumber": "فيلا 5 - دور A",
@@ -2532,7 +2527,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfcj2lv4"
+          "id": "mu4kwsr4we8k6k"
         },
         {
           "unitNumber": "فيلا 5 - دور B",
@@ -2552,10 +2547,10 @@
             "بلكونة"
           ],
           "price": 1250000,
-          "status": "sold",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfnycaiz"
+          "id": "mu4kwsr44i91g2"
         },
         {
           "unitNumber": "فيلا 5 - دور C",
@@ -2574,18 +2569,18 @@
             "موقف خاص"
           ],
           "price": 980000,
-          "status": "reserved",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfuywit8"
+          "id": "mu4kwsr46duhlc"
         },
         {
           "unitNumber": "فيلا 6 - دور A",
           "floor": "الأرضي",
           "type": "دور",
           "area": 191.76,
-          "rooms": 4,
-          "bathrooms": 5,
+          "rooms": 1,
+          "bathrooms": 2,
           "features": [
             "مجلس",
             "صالة معيشة",
@@ -2599,8 +2594,7 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzf3mf7lh",
-          "photos": []
+          "id": "mu4kwsr4wpamj2"
         },
         {
           "unitNumber": "فيلا 6 - دور B",
@@ -2620,10 +2614,10 @@
             "بلكونة"
           ],
           "price": 1250000,
-          "status": "sold",
+          "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfudz6o8"
+          "id": "mu4kwsr4rj1c9y"
         },
         {
           "unitNumber": "فيلا 6 - دور C",
@@ -2645,12 +2639,11 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu302vzfnpmnus"
+          "id": "mu4kwsr4bhai2z"
         }
       ],
-      "updatedAt": "2026-09-15T19:53:17.396Z",
-      "createdAt": "2026-09-15T18:23:33.483Z",
-      "coverImage": null
+      "updatedAt": "2026-09-16T20:54:27.472Z",
+      "createdAt": "2026-09-16T20:54:27.472Z"
     },
     {
       "id": "saas-qairawan-91",
