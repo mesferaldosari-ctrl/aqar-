@@ -421,7 +421,14 @@ async function sha256Hex(str){
   return arr.map(function(b){ return b.toString(16).padStart(2,"0"); }).join("");
 }
 function b64EncodeUtf8(str){
-  return btoa(String.fromCharCode.apply(null, Array.from(new TextEncoder().encode(str))));
+  var bytes = new TextEncoder().encode(str);
+  var CHUNK = 0x8000; // 32768 — stay well under the JS function-argument limit
+  var binary = "";
+  for(var i = 0; i < bytes.length; i += CHUNK){
+    var chunk = bytes.subarray(i, i + CHUNK);
+    binary += String.fromCharCode.apply(null, chunk);
+  }
+  return btoa(binary);
 }
 function b64DecodeUtf8(b64){
   var bin = atob(b64.replace(/\n/g, ""));
@@ -560,11 +567,18 @@ async function saveToGitHub(commitMessage){
   if(saving) return false;
   saving = true;
   renderSyncPill();
-  var ok = await ghPutFile(DATA_PATH, b64EncodeUtf8(JSON.stringify(DB, null, 2)), commitMessage || "تحديث بيانات المشاريع");
-  saving = false;
-  renderSyncPill();
-  if(ok) toast("تم الحفظ على GitHub، التحديث يظهر للجميع خلال دقيقة تقريبًا", "ok");
-  return ok;
+  try{
+    var payload = b64EncodeUtf8(JSON.stringify(DB, null, 2));
+    var ok = await ghPutFile(DATA_PATH, payload, commitMessage || "تحديث بيانات المشاريع");
+    if(ok) toast("تم الحفظ على GitHub، التحديث يظهر للجميع خلال دقيقة تقريبًا", "ok");
+    return ok;
+  }catch(err){
+    toast("تعذر تجهيز البيانات للحفظ، حاول مرة أخرى أو تواصل مع الدعم الفني", "error");
+    return false;
+  }finally{
+    saving = false;
+    renderSyncPill();
+  }
 }
 
 /* ===================== Upload one unit's plan file (image/PDF) to GitHub ===================== */
