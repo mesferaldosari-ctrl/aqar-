@@ -2632,8 +2632,8 @@
           "floor": "العلوي",
           "type": "دور",
           "area": 118.42,
-          "rooms": 3,
-          "bathrooms": 3,
+          "rooms": 2,
+          "bathrooms": 4,
           "features": [
             "غرفتين ماستر + غرفة نوم",
             "صالة معيشة",
@@ -2647,10 +2647,11 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu4kwsr4bhai2z"
+          "id": "mu4kwsr4bhai2z",
+          "photos": []
         }
       ],
-      "updatedAt": "2026-09-20T15:16:09.117Z",
+      "updatedAt": "2026-09-20T15:18:02.953Z",
       "createdAt": "2026-09-16T20:54:27.472Z"
     },
     {
