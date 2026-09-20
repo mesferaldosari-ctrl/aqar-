@@ -2335,8 +2335,8 @@
           "floor": "الأول",
           "type": "دور",
           "area": 198.94,
-          "rooms": 3,
-          "bathrooms": 3,
+          "rooms": 4,
+          "bathrooms": 5,
           "features": [
             "3 غرف نوم",
             "صالة معيشة",
@@ -2351,7 +2351,8 @@
           "status": "available",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
-          "id": "mu4kwsr3m0b5uy"
+          "id": "mu4kwsr3m0b5uy",
+          "photos": []
         },
         {
           "unitNumber": "فيلا 2 - دور C",
@@ -2648,7 +2649,7 @@
           "id": "mu4kwsr4bhai2z"
         }
       ],
-      "updatedAt": "2026-09-20T15:12:56.584Z",
+      "updatedAt": "2026-09-20T15:15:48.717Z",
       "createdAt": "2026-09-16T20:54:27.472Z"
     },
     {
