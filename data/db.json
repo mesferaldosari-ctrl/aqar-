@@ -1716,7 +1716,7 @@
           "bathrooms": 2,
           "features": [],
           "price": 584000,
-          "status": "available",
+          "status": "sold",
           "notes": ""
         },
         {
@@ -2228,7 +2228,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-09-16T20:53:54.445Z",
+      "updatedAt": "2026-09-20T14:46:57.991Z",
       "coverImage": null
     },
     {
