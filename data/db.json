@@ -2484,7 +2484,7 @@
             "بلكونة"
           ],
           "price": 1250000,
-          "status": "available",
+          "status": "reserved",
           "notes": "السعر بحسب تحديث المبيعات (يختلف عن السعر المطبوع بالبروشور الأصلي).",
           "planFile": null,
           "id": "mu4kwsr3y6rj15"
@@ -2648,7 +2648,7 @@
           "id": "mu4kwsr4bhai2z"
         }
       ],
-      "updatedAt": "2026-09-20T15:11:48.675Z",
+      "updatedAt": "2026-09-20T15:11:56.881Z",
       "createdAt": "2026-09-16T20:54:27.472Z"
     },
     {
