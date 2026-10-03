@@ -1187,10 +1187,11 @@
           "rooms": 3,
           "bathrooms": 4,
           "features": [],
-          "price": 1910817,
+          "price": 1930817,
           "status": "available",
           "notes": "",
-          "planFile": "https://drive.google.com/file/d/1eu6IsAswzoQzXqQ40EnF7DApBO6AlvCj/view"
+          "planFile": "https://drive.google.com/file/d/1eu6IsAswzoQzXqQ40EnF7DApBO6AlvCj/view",
+          "photos": []
         },
         {
           "id": "aknan6-C101",
@@ -1447,7 +1448,7 @@
         }
       ],
       "createdAt": "2026-08-24T20:00:00Z",
-      "updatedAt": "2026-10-03T18:37:23.375Z",
+      "updatedAt": "2026-10-03T18:37:35.016Z",
       "coverImage": null
     },
     {
